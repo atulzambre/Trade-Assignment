@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-01-21T12:39:00" hostname="Atuls-MacBook-Pro.local" time="0.373">
+  <properties/>
+  <testcase name="getTrades_whenTradesPresentInStore_thenReturnAllTrades" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.363"/>
+  <testcase name="saveTrade_whenMaturityDatePastCurrentDate_thenThrowException" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.002"/>
+  <testcase name="saveTrade_whenNewTrade_thenSaveTradeInStore" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.003"/>
+  <testcase name="saveTrade_whenMaturityDateAfterCurrentDate_thenSaveTrade" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.001"/>
+  <testcase name="saveTrade_whenTradeWithLowerVersion_thenThrowException" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.0"/>
+  <testcase name="saveTrade_whenTradeWithSameVersion_thenReplaceTrade" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.0"/>
+  <testcase name="saveTrade_whenNewTrade_thenSaveTradeWithNotExpiredFlag" classname="com.tradeassignment.serviceimpl.TradeStoreServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
